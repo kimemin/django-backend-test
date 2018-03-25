@@ -9,9 +9,11 @@ class Post(models.Model):
     content = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     updated_date = models.DateTimeField(default=timezone.now)
+    visibleYn = models.BooleanField(default=True)
 
     def publish(self):
         self.updated_date = timezone.now()
+        self.visibleYn = True
         self.save()
     
     def __str__(self):

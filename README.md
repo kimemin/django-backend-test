@@ -85,3 +85,12 @@ pip install psycopg2
 
 # 환경변수 freeze
 http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/
+
+---
+
+# module migrate
+
+```
+python manage.py makemigrations board
+python manage.py migrate board
+```

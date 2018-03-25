@@ -4,5 +4,17 @@
     </head>
     <body>
         Hello! World!!
+
+        <h3>
+            게시물 리스트
+        </h3>
+        <ul>
+            {% for post in posts %}
+            <li>
+                {{ post.title }} <span class="author">- {{post.author}}</span><br/>
+                <span class="date">created: {{ post.created_date }}</span>
+            </li>
+            {% endfor %}
+        </ul>
     </body>
 </html>
