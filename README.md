@@ -94,3 +94,23 @@ http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/
 python manage.py makemigrations board
 python manage.py migrate board
 ```
+
+---
+
+# front settings
+
+
+1. vue-cli 로 vue 프로젝트 생성하기
+
+Vue CLI v3.0.0-beta.6 사용
+
+```
+vue create vue-front 
+```
+
+1. add bootstrap-vue
+```
+npm i bootstrap-vue
+```
+
+
