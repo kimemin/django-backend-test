@@ -113,4 +113,11 @@ vue create vue-front
 npm i bootstrap-vue
 ```
 
+1. bootstrap image src resolving
+
+https://bootstrap-vue.js.org/docs/reference/images
+
+
+1. 
+
 
