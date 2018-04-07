@@ -118,6 +118,6 @@ npm i bootstrap-vue
 https://bootstrap-vue.js.org/docs/reference/images
 
 
-1. 
+1. ajax for axios
 
-
+http://vuejs.kr/update/2017/01/04/http-request-with-axios/
